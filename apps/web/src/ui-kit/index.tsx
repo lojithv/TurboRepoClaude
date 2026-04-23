@@ -8,7 +8,17 @@ import { InputNumberDemo } from "./demos/input-number";
 import { DropdownDemo } from "./demos/dropdown";
 import { CheckboxDemo } from "./demos/checkbox";
 import { CalendarDemo } from "./demos/calendar";
+import { FormFieldDemo } from "./demos/form-field";
 import { DialogDemo } from "./demos/dialog";
+import { PopupWindowDemo } from "./demos/popup-window";
+import { PopupFormDemo } from "./demos/popup-form";
+import { ConfirmDialogDemo } from "./demos/confirm-dialog";
+import { ConfirmPopupDemo } from "./demos/confirm-popup";
+import { SidebarDemo } from "./demos/sidebar";
+import { OverlayPanelDemo } from "./demos/overlay-panel";
+import { ToastDemo } from "./demos/toast";
+import { TooltipDemo } from "./demos/tooltip";
+import { ContextMenuDemo } from "./demos/context-menu";
 import { CardDemo } from "./demos/card";
 import { DataTableDemo } from "./demos/data-table";
 import { TabViewDemo } from "./demos/tab-view";
@@ -20,7 +30,17 @@ const demos: Record<string, ComponentType> = {
   "dropdown": DropdownDemo,
   "checkbox": CheckboxDemo,
   "calendar": CalendarDemo,
+  "form-field": FormFieldDemo,
   "dialog": DialogDemo,
+  "popup-window": PopupWindowDemo,
+  "popup-form": PopupFormDemo,
+  "confirm-dialog": ConfirmDialogDemo,
+  "confirm-popup": ConfirmPopupDemo,
+  "sidebar": SidebarDemo,
+  "overlay-panel": OverlayPanelDemo,
+  "toast": ToastDemo,
+  "tooltip": TooltipDemo,
+  "context-menu": ContextMenuDemo,
   "card": CardDemo,
   "data-table": DataTableDemo,
   "tab-view": TabViewDemo,

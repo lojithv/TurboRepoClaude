@@ -30,6 +30,88 @@
   /* Customize dialog here. */
 }
 
+.repo-ui-confirm-dialog,
+.repo-ui-confirm-popup,
+.repo-ui-sidebar,
+.repo-ui-overlay-panel,
+.repo-ui-toast,
+.repo-ui-tooltip,
+.repo-ui-context-menu {
+  /* Customize overlay surfaces here. */
+}
+
+.repo-ui-popup-window .p-dialog-header {
+  cursor: move;
+  user-select: none;
+}
+
+.repo-ui-popup-window .p-dialog-content {
+  /* Customize popup-window body here. */
+}
+
+.repo-ui-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.repo-ui-form-field__label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.repo-ui-form-field__required {
+  color: #dc2626;
+  margin-left: 0.2rem;
+}
+
+.repo-ui-form-field__control {
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-ui-form-field__control > .p-inputtext,
+.repo-ui-form-field__control > .p-dropdown,
+.repo-ui-form-field__control > .p-calendar,
+.repo-ui-form-field__control > .p-inputnumber {
+  width: 100%;
+}
+
+.repo-ui-form-field__control > .p-calendar .p-inputtext,
+.repo-ui-form-field__control > .p-inputnumber .p-inputtext {
+  width: 100%;
+}
+
+.repo-ui-form-field__help {
+  font-size: 0.78rem;
+  color: #6b7280;
+}
+
+.repo-ui-form-field__help.is-error {
+  color: #dc2626;
+}
+
+.repo-ui-popup-form__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.repo-ui-popup-form__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.repo-ui-popup-form__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid #e5e7eb;
+}
+
 .repo-ui-card {
   /* Customize card here. */
 }
